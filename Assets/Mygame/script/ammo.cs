@@ -28,7 +28,7 @@ public class ammo : MonoBehaviourPun
     {
         if(collision.CompareTag("Ground"))
         {
-            // ootr
+            
                 //this.GetComponent<PhotonView>().RPC("Destruir",RpcTarget.All);
                 Destroy(this.gameObject);
         }
